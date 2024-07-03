@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,700;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media screen and (width: 1600px) and (height: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (width: 1680px) and (height: 1050px) {
+  html {
+    font-size: 15.1px;
+  }
+}
+
+@media screen and (width: 1600px) and (height: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (width: 1768px) and (height: 992px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (width: 1366px) and (height: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (width: 1280px) and (height: 1024px) {
+  html {
+    font-size: 11.7px;
+  }
+}
+
+@media screen and (width: 1280px) and (height: 720px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media screen and (width: 1024px) and (height: 768px) {
+  html {
+    font-size: 10.05px;
+  }
+}
+
+@media screen and (width: 832px) and (height: 624px) {
+  html {
+    font-size: 8.05px;
+  }
+}
+
+@media screen and (width: 800px) and (height: 600px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+.background-image {
+
+  width: 120rem;
+  height: 67.5rem;
+  z-index: 1;
+}
+
+.backgorund-shadow {
+  position: absolute;
+  width: 120rem;
+  height: 67.5rem;
+  background: rgba(9, 9, 12, 0.932);
+  z-index: 2;
+}
+
+.priceyes img{
+  position: absolute;
+  top: 17rem;
+  width: 21rem;
+  height: 3.563rem;
+  z-index: 10;
+  left: 0rem;
+}
+.priceyes h2{
+   position: fixed;
+  top: 17.85rem;
+  color: rgb(238, 236, 236);
+  z-index: 11;
+  font-size: 1.5rem;
+  left: 2.8rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.priceyes h3{
+   position: fixed;
+  top: 17.85rem;
+  color: rgb(238, 236, 236);
+  z-index: 11;
+  font-size: 1.5rem;
+  left: 17.25rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.priceyes h4{
+   position: fixed;
+  top: 17.99rem;
+  color: rgb(238, 236, 236);
+  z-index: 11;
+  font-size: 1.3rem;
+  left: 6.7rem;
+  width: 10rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.priceyes img{
+  position: absolute;
+  top: 17rem;
+  width: 21rem;
+  height: 3.563rem;
+  z-index: 10;
+  left: 0rem;
+}
+.priceyes h2{
+   position: fixed;
+  top: 17.85rem;
+  color: rgb(238, 236, 236);
+  z-index: 11;
+  font-size: 1.5rem;
+  left: 2.8rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.priceyes h3{
+   position: fixed;
+  top: 17.85rem;
+  color: rgb(238, 236, 236);
+  z-index: 11;
+  font-size: 1.5rem;
+  left: 17.25rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.priceyes h4{
+   position: fixed;
+  top: 17.99rem;
+  color: rgb(238, 236, 236);
+  z-index: 11;
+  font-size: 1.3rem;
+  left: 6.7rem;
+  width: 10rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.priceyes h2:hover {
+  cursor:pointer;
+  transform:scale(1.1);
+  transition:300ms all; 
+  }
+  .priceyes h3:hover {
+    cursor:pointer;
+    transform:scale(1.1);
+    transition:300ms all; 
+    }
+.transferyes img {
+  position: absolute;
+  top: 21.95rem;
+  width: 21rem;
+  height: 3.563rem;
+  z-index: 10;
+  left: 0.04rem;
+}
+.transferyes h2 {
+  position: fixed;
+  top: 23.05rem;
+  color: rgb(238, 236, 236);
+  z-index: 11;
+  font-size: 1.2rem;
+  left: 2.9rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.transferyes h3 {
+  position: fixed;
+  top: 22.99rem;
+  color: rgb(238, 236, 236);
+  z-index: 11;
+  font-size: 1.2rem;
+  left: 17.5rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.transferyes h4 {
+  position: fixed;
+  top: 23.2rem;
+  color: rgb(238, 236, 236);
+  z-index: 11;
+  font-size: 1.1rem;
+  left: 7.2rem;
+  width: 8rem;
+  text-align: start;
+
+  font-family: 'Glory', sans-serif;
+}
+.sellprice img {
+  position: absolute;
+  top: 17rem;
+  width: 21rem;
+  height: 3.563rem;
+  z-index: 3;
+  left: 0rem;
+}
+.sellprice h4:hover {
+cursor:pointer;
+transform:scale(1.1);
+transition:300ms all; 
+}
+.sellprice h2 {
+  position: fixed;
+  top: 17.9rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.9rem;
+  left: 7rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.sellprice h4 {
+  position: fixed;
+  top: 18.1rem;
+  color: rgb(238, 236, 236);
+  z-index: 6;
+  font-size: 1.2rem;
+  left: 17.1rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.sellprice h3 {
+  position: fixed;
+  top: 19rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.9rem;
+  left: 7rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.transfer img {
+  position: absolute;
+  top: 22rem;
+  width: 21rem;
+  height: 3.563rem;
+  z-index: 3;
+  left: 0rem;
+}
+
+.transfer h2 {
+  position: fixed;
+  top: 22.7rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.9rem;
+  left: 7rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.transfer h3 {
+  position: fixed;
+  top: 23.2rem;
+  color: rgb(238, 236, 236);
+  z-index: 4;
+  font-size: 0.9rem;
+  left: 16.3rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+.transfer input {
+  position: fixed;
+  top: 23.8rem;
+  color: rgb(238, 236, 236);
+  z-index: 4;
+  font-size: 0.9rem;
+background:none;
+  left: 7rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+   outline: none;
+  border: none;
+}
+
+.transfer h3:hover {
+cursor:pointer;
+transform:scale(1.1);
+transition:300ms all; 
+}
+.platepng img {
+  position: absolute;
+  top: 28rem;
+  width: 8.563rem;
+  height: 8.563rem;
+  z-index: 3;
+  left: 3rem;
+}
+
+.platepng h1 {
+  position: fixed;
+  top: 33.6rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.7rem;
+  left: 4rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+
+
+}
+
+.platepng h2 {
+  position: fixed;
+  top: 34.6rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.9rem;
+  left: 4rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+
+}
+
+.enginepng img {
+  position: absolute;
+  top: 28rem;
+  width: 8.563rem;
+  height: 8.563rem;
+  z-index: 3;
+  left: 12.5rem;
+}
+
+.enginepng h1 {
+  position: fixed;
+  top: 33.6rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.7rem;
+  left: 13.5rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+
+.enginepng h2 {
+  position: fixed;
+  top: 34.6rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.9rem;
+  left: 13.5rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+
+
+}
+
+.windowpng img {
+  position: absolute;
+  top: 37.5rem;
+  width: 8.563rem;
+  height: 8.563rem;
+  z-index: 3;
+  left: 12.5rem;
+}
+
+.windowpng h1 {
+  position: fixed;
+  top: 43rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.7rem;
+  left: 13.5rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+
+.windowpng h2 {
+  position: fixed;
+  top: 44rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.9rem;
+  left: 13.5rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+
+}
+
+.parkpng img {
+  position: absolute;
+  top: 47rem;
+  width: 8.563rem;
+  height: 8.563rem;
+  z-index: 3;
+  left: 12.5rem;
+}
+
+.closebutton img {
+  position: absolute;
+  top: 8rem;
+  width: 2rem;
+  height: 2rem;
+  z-index: 3;
+  right: 6.5rem;
+}
+
+.closebutton h2 {
+  position: absolute;
+  top: 7.9rem;
+  width: 5rem;
+  height: 4rem;
+  text-align: end;
+  z-index: 3;
+  font-size: 1rem;
+  right: 9.5rem;
+  color: white;
+  font-family: 'Glory', sans-serif;
+}
+
+.fuelbar {
+  position: absolute;
+  top: 37.5rem;
+  width: 8.563rem;
+  height: 17.9rem;
+  background: transparent;
+  border: 1px solid gray;
+  z-index: 3;
+  left: 3rem;
+  border-radius: 1rem;
+}
+
+
+.fuelbar h1 {
+  position: fixed;
+  top: 52.7rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.7rem;
+  left: 3.5rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+
+.fuelbar h2 {
+  position: fixed;
+  top: 53.6rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.9rem;
+  left: 3.5rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+
+}
+
+.parkpng h1 {
+  position: fixed;
+  top: 52.5rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.7rem;
+  left: 13.5rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+}
+
+.parkpng h2 {
+  position: fixed;
+  top: 53.5rem;
+  color: rgb(238, 236, 236);
+  z-index: 3;
+  font-size: 0.9rem;
+  left: 13.5rem;
+  width: 7rem;
+  text-align: start;
+  font-family: 'Glory', sans-serif;
+
+}
+
+.spawncar img {
+  position: absolute;
+  top: 56.5rem;
+  width: 17.9rem;
+  height: 4.563rem;
+  z-index: 4;
+  left: 3rem;
+  transition: 300ms all;
+}
+
+.spawncar:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+.spawncar:hover #spawncar {
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+
+#spawncar {
+  position: absolute;
+  bottom: 8.0rem;
+  width: 10rem;
+  left: 7rem;
+  text-align: center;
+  color: white;
+  z-index: 10;
+  font-family: 'Glory', sans-serif;
+  font-size: 1.5rem;
+  transition: 300ms all;
+
+}
+
+.cargaragetext img {
+  position: absolute;
+  top: 5rem;
+  width: 22rem;
+  height: 8.688rem;
+  z-index: 3;
+  left: 0.9rem;
+}
+
+.carspecitext img {
+  position: absolute;
+  top: 12rem;
+  width: 17rem;
+  height: 4.688rem;
+  z-index: 3;
+  left: 1.2rem;
+}
+
+.selectedvehicle {
+  position: absolute;
+  top: 15rem !important;
+  width: 85rem;
+  height: 46.688rem;
+  z-index: 5;
+  left: 30.2rem;
+  top: 10rem;
+  overflow: auto;
+}
+
+.hoverpng {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: scale(0.5);
+  transition: transform 0.2s linear;
+}
+
+.hovergri {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: transform 0.2s linear;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 5px;
+}
+
+.vehiclemodel {
+  position: relative;
+  width: 14rem;
+  height: 17rem;
+  background: linear-gradient(180deg, #ffffff00 0%, #3333336b 100%);
+  left: 2rem;
+  flex-wrap: nowrap;
+  float: left;
+  margin: 1rem;
+  border: 1px solid #3a3636bd;
+  border-radius: 1rem;
+}
+
+.vehicleimage img {
+  position: relative;
+  top: 1rem;
+  width: 12rem;
+  height: 7.688rem;
+  left: 1.2rem;
+}
+
+.vehiclemodel h2 {
+  position: relative;
+  top: 1rem;
+  width: 12rem;
+  height: 1.688rem;
+  left: 1rem;
+  text-align: center;
+  color: white;
+  font-family: 'Glory', sans-serif;
+}
+
+.vehiclemodel h3 {
+  position: relative;
+  top: 1.2rem;
+  width: 12rem;
+  height: 1.688rem;
+  left: 1rem;
+  text-align: center;
+  color: white;
+  font-family: 'Glory', sans-serif;
+}
+
+.spawnselectcar {
+  position: relative;
+  width: 11rem;
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  border: 1px solid;
+  left: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: 300ms all;
+  font-family: 'Glory', sans-serif;
+}
+
+.spawnselectcar:hover {
+  cursor: pointer;
+}
+
+.searchbox {
+  position: absolute;
+  width: 30.5rem;
+  height: 3rem;
+  border: 2px solid gray;
+  left: 33rem;
+  top: 11rem;
+  background: #808080a1;
+  border-radius: 1rem;
+
+}
+
+.searchbox input {
+  position: relative;
+  width: 20rem;
+  top: 0.4rem;
+  height: 2rem;
+  left: 1rem;
+  background: none;
+  outline: none;
+  border: none;
+  font-family: 'Glory', sans-serif;
+  color: white;
+  z-index: 4;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          border:none;	
+          outline:none;
+         
+      
+ }
+
+ .notify {
+          position: absolute;;
+          background: #333;
+          color: white;
+          padding: 0.625rem 0.95rem;
+          border-radius: 2px;
+          margin: 0.4375rem;
+          left: 90.625rem;
+          top: 4.625rem ;
+          z-index: 105;
+          border:2px solid gray;
+      }
+      
